@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { FaReact } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
+import { FaNode, FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
@@ -112,12 +112,18 @@ export default function About() {
                   <FaReact color="#61DAFB" size={40} />
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-white font-bold text-xl">N</span>
+                  <span className="text-white font-bold text-xl"></span>
                   <SiNextdotjs color="white" size={40} />
-                  <span className="text-white ml-1">Next.js</span>
+                  <span className="text-white ml-1"></span>
                 </div>
                 <div className="flex items-center justify-center w-12 h-12">
                   <RiTailwindCssFill color="#f20986" size={40} />
+                </div>
+                <div className="flex items-center justify-center w-12 h-12">
+                  <SiTypescript  color="cyan" size={40} />
+                </div>
+                <div className="flex items-center justify-center w-12 h-12">
+                  <FaNode   color="green" size={60} />
                 </div>
               </div>
             </div>

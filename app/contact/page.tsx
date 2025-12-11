@@ -9,6 +9,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
+  FaInstagram,
 } from "react-icons/fa";
 
 const translations = {
@@ -173,6 +174,9 @@ export default function Contact() {
                 </Link>
                 <Link href="#" className="hover:text-white">
                   <FaLinkedinIn />
+                </Link>
+                <Link href="#" className="hover:text-white">
+                <FaInstagram />
                 </Link>
               </div>
             </div>
