@@ -120,7 +120,7 @@ export default function About() {
                   <RiTailwindCssFill color="#f20986" size={40} />
                 </div>
                 <div className="flex items-center justify-center w-12 h-12">
-                  <SiTypescript  color="cyan" size={40} />
+                  <SiTypescript  color="#4273ef" size={40} />
                 </div>
                 <div className="flex items-center justify-center w-12 h-12">
                   <FaNode   color="green" size={60} />
